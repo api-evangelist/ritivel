@@ -1,7 +1,16 @@
 aid: ritivel
 name: Ritivel
-description: Ritivel is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ritivel is an AI-native regulatory and medical-writing platform for life
+  sciences organizations, backed by Y Combinator (Winter 2026 batch). Its AI agents
+  automate the drafting of regulatory submission documents such as Common Technical
+  Documents (CTD), Clinical Study Reports (CSR), INDs, and BLAs, turning work that
+  typically takes weeks into minutes. The platform generates comprehensive first drafts
+  in Microsoft Word format that follow FDA and ICH requirements, with word-level
+  traceability of every statement back to source documents, integrations with SharePoint,
+  Veeva, and Outlook for document retrieval and follow-ups, a regulatory search over
+  FDA and ICH guidelines, and a privacy posture built around local deployment with no
+  cloud storage. It serves pharma, biotech, medtech, CROs, and CDMOs. Ritivel is an
+  end-user application and does not currently publish a public API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/ritivel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,42 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Life Sciences
+- Regulatory
+- Artificial Intelligence
+- Medical Writing
+- Pharma
+- Biotech
+- Compliance
+- Document Automation
+- Y Combinator
+image: https://www.ritivel.com/favicon.ico
+common:
+- type: DomainSecurity
+  url: security/ritivel-domain-security.yml
+- type: Website
+  url: https://www.ritivel.com
 apis: []
 maintainers:
 - FN: Kin Lane
